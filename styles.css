@@ -1,0 +1,428 @@
+/* Importation de la police */ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+*{ 
+margin: 0;
+padding: 0;
+box-sizing: border-box; 
+font-family: 'Poppins', sans-serif; }
+
+
+body {
+background: #f9f9f9;
+color: #333;
+}
+
+/* HEADER */
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 10%;
+background: #fff;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 10%;
+background: #fff;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+z-index: 1000;
+}
+
+.logo {
+font-size: 24px;
+font-weight: 600;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+}
+
+nav ul li {
+margin: 0 15px;
+}
+
+nav ul li a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+nav ul li a:hover {
+color: #007bff;
+}
+
+/* HERO SECTION */
+.hero {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 80px 10%;
+background: #f9f9f9;
+}
+
+.hero-content {
+max-width: 50%;
+}
+
+.hero-content h1 {
+font-size: 36px;
+font-weight: 600;
+}
+
+.hero-content p {
+font-size: 18px;
+margin: 15px 0;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 24px;
+background: #007bff;
+color: #fff;
+text-decoration: none;
+border-radius: 5px;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* IMAGE HERO */
+.hero-image img {
+gap: 120px;
+width: 90%;
+max-width: 400px;
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+
+}
+
+/* SECTION À PROPOS */
+.about {
+padding: 60px 10%;
+text-align: center;
+background: #f9f9f9;
+}
+
+.about h1 {
+font-size: 36px;
+margin-bottom: 20px;
+}
+
+/* CONTAINER À PROPOS */
+.about-container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 40px;
+margin-top: 20px;
+}
+
+/* TEXTE À PROPOS */
+.about-text {
+max-width: 50%;
+text-align: left;
+font-size: 18px;
+color: #555;
+}
+
+.about-text ul {
+list-style: none;
+padding: 0;
+}
+
+.about-text ul li {
+margin-bottom: 10px;
+font-size: 18px;
+}
+
+
+/* SECTION "À PROPOS" */
+#about {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#about h1 {
+    font-size: 28px;
+    color: #222;
+    margin-bottom: 30px;
+}
+
+.about-content {
+    background: #f8f8f8;
+    padding: 20px;
+    border-left: 5px solid #007bff;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.about-content h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+
+
+
+/* IMAGE À PROPOS */
+.about-image img {
+width: 90%;
+max-width: 350px;
+border-radius: 10px;
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+/* SECTION PRODUITS */
+.products {
+padding: 60px 10%;
+text-align: center;
+background: #f9f9f9;
+}
+
+.products h1 {
+font-size: 36px;
+margin-bottom: 20px;
+}
+
+/* CONTAINER DES PRODUITS */
+.product-container {
+display: flex;
+justify-content: center;
+gap: 90px;
+flex-wrap: wrap;
+}
+
+/* CARTE PRODUIT */
+.product-card {
+background: #fff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+text-align: center;
+width: 300px;
+}
+
+.product-card img {
+width: 100%;
+max-width: 250px;
+border-radius: 10px;
+margin-bottom: 15px;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-card h2 {
+font-size: 22px;
+margin-bottom: 10px;
+}
+
+.product-card p {
+font-size: 16px;
+color: #666;
+}
+
+.price {
+display: block;
+font-size: 20px;
+font-weight: bold;
+color: #007bff;
+margin: 10px 0;
+}
+
+/* BOUTON */
+.product-card .btn {
+display: inline-block;
+padding: 10px 20px;
+background: #007bff;
+color: #fff;
+text-decoration: none;
+}
+
+.product-card .btn:hover {
+background: #0056b3;
+}
+
+/* SECTION CONTACT */
+.contact {
+padding: 60px 10%;
+text-align: center;
+background: #f9f9f9;
+}
+
+.contact h1 {
+font-size: 36px;
+margin-bottom: 10px;
+}
+
+.contact p {
+font-size: 18px;
+color: #555;
+margin-bottom: 30px;
+}
+
+/* FORMULAIRE */
+form {
+max-width: 500px;
+margin: 0 auto;
+background: #fff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+label {
+display: block;
+font-size: 16px;
+font-weight: bold;
+text-align: left;
+margin-top: 10px;
+}
+
+input, textarea {
+width: 100%;
+padding: 10px;
+margin-top: 5px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+textarea {
+resize: none;
+}
+
+button {
+display: block;
+width: 100%;
+padding: 10px;
+margin-top: 15px;
+background: #007bff;
+color: white;
+font-size: 18px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+button:hover {
+background: #0056b3;
+}
+
+/* FOOTER */
+footer {
+background: #222;
+color: #fff;
+padding: 40px 10%;
+text-align: center;
+margin-top: 50px;
+}
+
+.footer-container {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.footer-section {
+flex: 1;
+min-width: 250px;
+margin-bottom: 20px;
+}
+
+.footer-section h3 {
+font-size: 20px;
+margin-bottom: 10px;
+color: #007bff;
+}
+
+.footer-section ul {
+list-style: none;
+padding: 0;
+}
+
+.footer-section ul li {
+margin: 5px 0;
+}
+
+.footer-section ul li a {
+text-decoration: none;
+color: #fff;
+transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+color: #007bff;
+}
+
+/* CONTACT */
+.footer-section p {
+margin: 5px 0;
+}
+
+.footer-section a {
+color: #007bff;
+text-decoration: none;
+}
+
+.footer-section a:hover {
+text-decoration: underline;
+}
+
+/* --- Icônes Réseaux Sociaux --- */
+.social-media {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+
+.social-media a {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 30px;
+height: 35px;
+font-size: 25px;
+background: transparent;
+border: 2px solid #007bff;
+border-radius: 50%;
+color: #007bff;
+text-decoration: none;
+transition: 0.3s ease;
+}
+
+/* Effets de survol pour les icônes de réseaux sociaux */
+.social-media a:hover {
+background: #007bff;
+color: #1f242d;
+box-shadow: 0 0 20px #007bff;
+text-decoration: none;
+}
+
+/* COPYRIGHT */
+.footer-bottom {
+margin-top: 20px;
+padding-top: 10px;
+border-top: 1px solid #444;
+font-size: 14px;
+}
+
